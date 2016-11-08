@@ -1,0 +1,37 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="Shipwreck Test Suite" verbose="2" parallel="methods"
+	thread-count="1" data-provider-thread-count="3">
+
+	<listeners>
+		<listener class-name="omelet.testng.support.TestInterceptor"></listener>
+		<!-- <listener class-name="omelet.support.saucelabs.SauceLabsIntegration"></listener> -->
+		<listener class-name="omelet.driver.DriverInitialization"></listener>
+		<listener class-name="omelet.testng.support.RetryIAnnotationTransformer"></listener>
+		<listener class-name="omelet.driver.SuiteConfiguration"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+	</listeners>
+
+	<test name="AddShipwreckTest" preserve-order="true" parallel="methods"
+		thread-count="1">
+		<classes>
+			<class name="tests.AddShipwreckTest"></class>
+		</classes>
+	</test>
+	
+	<test name="UpdateShipwreckTest" preserve-order="true" parallel="methods"
+		thread-count="1">
+		<classes>
+			<class name="tests.UpdateShipwreckTest"></class>
+		</classes>
+	</test>
+	
+	<test name="DeleteShipwreckTest" preserve-order="true" parallel="methods"
+		thread-count="1">
+		<classes>
+			<class name="tests.DeleteShipwreckTest"></class>
+		</classes>
+	</test>
+
+
+</suite> 
+ 
