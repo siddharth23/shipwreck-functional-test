@@ -21,10 +21,10 @@
 		<Class name="tests.AddShipwreckTest"  runStrategy="Optimal"  clientEnvironment="ChromeFFIE.xml">
 			<MethodName name = "tests.AddShipwreckTest.addShipwreckTest" testData="AddTestData.xml" />
 		</Class>
-		<Class name="tests.UpdateShipwreckTest"  runStrategy="Optimal"  clientEnvironment="ChromeFF.xml">
+		<Class name="tests.UpdateShipwreckTest"  runStrategy="Optimal"  clientEnvironment="FF.xml">
 			<MethodName name = "tests.UpdateShipwreckTest.updateShipwreckTest" testData="UpdateTestData.xml" />
 		</Class>
-		<Class name="tests.DeleteShipwreckTest"  runStrategy="Optimal"  clientEnvironment="FF.xml">
+		<Class name="tests.DeleteShipwreckTest"  runStrategy="Optimal"  clientEnvironment="ChromeFF.xml">
 			<MethodName name = "tests.DeleteShipwreckTest.deleteShipwreckTest" testData="DeleteTestData.xml" />
 		</Class>
 	</Package>

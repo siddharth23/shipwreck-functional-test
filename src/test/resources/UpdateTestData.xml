@@ -25,20 +25,4 @@
 		</Pages>
 	</Data>	
 		
- 	<Data environment="dev">
-		<Pages>
-			<Page name="shipwreck">
-				<url>http://shipwreck-dev.jqzi5wdvms.us-east-1.elasticbeanstalk.com/index.html</url>
-				<name>Titanic2</name>
-				<description>Sinking</description>
-				<condition>Broken</condition>
-				<yeardiscovered>1912</yeardiscovered>
-				<depthofwreck>3800</depthofwreck>
-				<latitude>1</latitude>
-				<longitude>2</longitude>
-			</Page>
-		</Pages>
-	</Data>
-
-		
 </Conf>
